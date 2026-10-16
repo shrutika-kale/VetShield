@@ -1,0 +1,103 @@
+/* VetShield - Design System & Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Dark Navy Primary Palette */
+  --navy-950: #070e1b;
+  --navy-900: #0a192f;
+  --navy-850: #0e223f;
+  --navy-800: #132d54;
+  --navy-700: #1c3d6e;
+  --navy-600: #2a5595;
+
+  /* Fresh Health Green Palette */
+  --green-50: #ecfdf5;
+  --green-100: #d1fae5;
+  --green-200: #a7f3d0;
+  --green-500: #10b981;
+  --green-600: #059669;
+  --green-700: #047857;
+
+  /* Neutrals & Surfaces */
+  --bg-app: #f4f7fb;
+  --bg-card: #ffffff;
+  --bg-hover: #f8fafc;
+  --border-light: #e2e8f0;
+  --border-subtle: #cbd5e1;
+  --text-dark: #0f172a;
+  --text-body: #334155;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+
+  /* Alert States */
+  --red-50: #fef2f2;
+  --red-100: #fee2e2;
+  --red-500: #ef4444;
+  --red-600: #dc2626;
+
+  --amber-50: #fffbeb;
+  --amber-100: #fef3c7;
+  --amber-500: #f59e0b;
+  --amber-600: #d97706;
+
+  --blue-50: #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(10, 25, 47, 0.05);
+  --shadow-sm: 0 2px 4px -1px rgba(10, 25, 47, 0.06), 0 1px 2px -1px rgba(10, 25, 47, 0.04);
+  --shadow-md: 0 4px 12px -2px rgba(10, 25, 47, 0.08), 0 2px 6px -2px rgba(10, 25, 47, 0.04);
+  --shadow-lg: 0 12px 24px -4px rgba(10, 25, 47, 0.12), 0 4px 10px -3px rgba(10, 25, 47, 0.06);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-app);
+  color: var(--text-dark);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}

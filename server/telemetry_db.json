@@ -1,0 +1,199 @@
+{
+  "settings": {
+    "heartbeatTimeoutSeconds": 45,
+    "staleTimeoutSeconds": 90,
+    "temperatureUnit": "C"
+  },
+  "devices": [
+    {
+      "deviceId": "ESP32-VET-01",
+      "name": "Primary Livestock Collar #1",
+      "assignedAnimalId": "VS0001",
+      "apiKey": "vetshield_sec_esp32_k8912x",
+      "sensorModel": "DS18B20 1-Wire Digital Probe",
+      "status": "Connected",
+      "lastReading": {
+        "id": "REC-1792163965055-703",
+        "deviceId": "ESP32-VET-01",
+        "animalId": "VS0001",
+        "animalName": "Bella",
+        "species": "Cattle",
+        "temperature": 38.74,
+        "unit": "C",
+        "battery": 95,
+        "rssi": -62,
+        "firmwareVersion": "1.0.0",
+        "isRealHardware": true,
+        "serverTimestamp": "2026-10-16T15:19:25.053Z",
+        "clientReportedAt": "2026-10-16T15:19:25.053Z"
+      },
+      "lastSeen": "2026-10-16T15:19:25.053Z",
+      "createdAt": "2026-10-16T15:06:38.534Z"
+    }
+  ],
+  "animals": [
+    {
+      "id": "VS0001",
+      "name": "Bella",
+      "species": "Cattle",
+      "breed": "Holstein Friesian",
+      "gender": "Female",
+      "dob": "2023-04-12",
+      "age": "3.5 yrs",
+      "weight": "620 kg",
+      "penLocation": "Barn A - Stall 04",
+      "assignedDeviceId": "ESP32-VET-01",
+      "owner": {
+        "name": "Campus Research Dairy Farm",
+        "contactPerson": "Dr. A. Sharma (Lead Vet)",
+        "phone": "+91 98765 43210",
+        "email": "vet.dairy@college.edu"
+      },
+      "registeredAt": "2026-09-01T10:00:00.000Z",
+      "publicNotes": "High-yield dairy cow. Active surveillance protocol.",
+      "privateMedicalHistory": [
+        {
+          "date": "2026-09-18",
+          "event": "FMD Booster Vaccine",
+          "clinician": "Dr. R. Patel",
+          "status": "Administered"
+        },
+        {
+          "date": "2026-10-10",
+          "event": "Routine Health Checkup",
+          "clinician": "Dr. A. Sharma",
+          "status": "Optimal"
+        }
+      ]
+    },
+    {
+      "id": "VS0002",
+      "name": "Oliver",
+      "species": "Sheep",
+      "breed": "Merino Wool",
+      "gender": "Male",
+      "dob": "2024-06-20",
+      "age": "2.3 yrs",
+      "weight": "74 kg",
+      "penLocation": "kukana",
+      "assignedDeviceId": null,
+      "owner": {
+        "name": "Agronomy Department",
+        "contactPerson": "Prof. S. Nair",
+        "phone": "+91 98123 45678",
+        "email": "agri.flock@college.edu"
+      },
+      "registeredAt": "2026-09-15T14:30:00.000Z",
+      "publicNotes": "Registered flock breeder. Fleece shearing scheduled.",
+      "privateMedicalHistory": [
+        {
+          "date": "2026-09-12",
+          "event": "Clostridial 8-in-1 Vaccine",
+          "clinician": "Dr. R. Patel",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "id": "VS0003",
+      "name": "Willow",
+      "species": "Goat",
+      "breed": "Boer Meat Goat",
+      "gender": "Female",
+      "dob": "2024-11-05",
+      "age": "1.9 yrs",
+      "weight": "58 kg",
+      "penLocation": "Barn C - Pen 08",
+      "assignedDeviceId": null,
+      "owner": {
+        "name": "Animal Husbandry Unit",
+        "contactPerson": "Dr. A. Sharma",
+        "phone": "+91 98765 43210",
+        "email": "vet.dairy@college.edu"
+      },
+      "registeredAt": "2026-10-01T09:15:00.000Z",
+      "publicNotes": "Nutritional trial herd. Monitored for heat tolerance.",
+      "privateMedicalHistory": [
+        {
+          "date": "2026-10-05",
+          "event": "Internal Parasite Screening",
+          "clinician": "Dr. A. Sharma",
+          "status": "Clear"
+        }
+      ]
+    },
+    {
+      "id": "VS0004",
+      "name": "suta",
+      "species": "Cattle",
+      "breed": "merion",
+      "gender": "Female",
+      "age": "3.5yrs",
+      "dob": "2020-01-16",
+      "weight": "600kg",
+      "penLocation": "kukana",
+      "assignedDeviceId": null,
+      "owner": {
+        "name": "vitthu mauli dudh sankaln kentra",
+        "contactPerson": "Attending Veterinarian",
+        "phone": "+91 8788418326"
+      },
+      "registeredAt": "2026-10-16T15:48:28.036Z",
+      "publicNotes": "Enrolled into VetShield permanent surveillance registry.",
+      "privateMedicalHistory": [
+        {
+          "date": "2026-10-16",
+          "event": "Permanent Electronic Registration & QR Code Generation",
+          "clinician": "Intake Registry",
+          "status": "Active"
+        }
+      ]
+    },
+    {
+      "id": "VS0005",
+      "name": "gita",
+      "species": "Cattle",
+      "breed": "boer",
+      "gender": "Female",
+      "age": "2.0 yrs",
+      "dob": "2024-05-10",
+      "weight": "550 kg",
+      "penLocation": "Barn A - Stall 06",
+      "assignedDeviceId": null,
+      "owner": {
+        "name": "Campus Research Dairy Farm",
+        "contactPerson": "Attending Veterinarian",
+        "phone": "+91 98765 43210"
+      },
+      "registeredAt": "2026-10-16T15:58:12.592Z",
+      "publicNotes": "Enrolled into VetShield permanent surveillance registry.",
+      "privateMedicalHistory": [
+        {
+          "date": "2026-10-16",
+          "event": "Permanent Electronic Registration & QR Code Generation",
+          "clinician": "Intake Registry",
+          "status": "Active"
+        }
+      ]
+    }
+  ],
+  "telemetryRecords": [
+    {
+      "id": "REC-1792163965055-703",
+      "deviceId": "ESP32-VET-01",
+      "animalId": "VS0001",
+      "animalName": "Bella",
+      "species": "Cattle",
+      "temperature": 38.74,
+      "unit": "C",
+      "battery": 95,
+      "rssi": -62,
+      "firmwareVersion": "1.0.0",
+      "isRealHardware": true,
+      "serverTimestamp": "2026-10-16T15:19:25.053Z",
+      "clientReportedAt": "2026-10-16T15:19:25.053Z"
+    }
+  ],
+  "testTelemetryRecords": [],
+  "alerts": []
+}
